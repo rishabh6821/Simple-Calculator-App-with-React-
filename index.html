@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/main-ico.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator | By Rishabh Sharma</title>
+  </head>
+  <body>
+    <div id="background-particles"></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <!-- Title bar contexts 👇🏻 -->
+    <script>
+     let contexts = [
+  "CybroCalc | By Rishabh Sharma",
+  "Let's Solve Quiz's Together!",
+  "Calculate Your Doubts Instantly",
+  "Smart Calculator | Powered by RS",
+  "Quiz & Calc Hub | Rishabh Sharma",
+  "Your Math Buddy | CybroCalc",
+  "Precision + Speed = CybroCalc",
+  "Solve. Learn. Repeat. | RS Tools",
+  "Rishabh Sharma's Smart Calculator",
+  "Quiz Mode Activated | Let's Go!",
+  "CybroCalc: Where Logic Meets Style",
+  "Math Made Easy | By RS",
+  "Quiz Solver | Built by Rishabh Sharma",
+  "CybroCalc | Fast. Clean. Reliable.",
+  "Your Personal Calculator Assistant"
+];
+      setInterval(() => {
+        document.title = contexts[Math.floor(Math.random() * contexts.length)];
+      }, 2000)
+
+    </script>
+    <br>
+    <p>Made with 💗 by <span style="font-weight: bold; color: var(--secondary-color); font-size: large;">Rishabh Sharma</span></p>
+  </body>
+</html>
