@@ -112,7 +112,7 @@ function App() {
 
         {/* Scientific buttons */}
         <button onClick={() => handleScientific('sqrt')}>√</button>
-        <button onClick={() => handleOperation('^')}>x^y</button>
+        <button onClick={() => handleOperation('^')}>x<sup>y</sup></button>
         <button onClick={() => handleScientific('sin')}>sin</button>
         <button onClick={() => handleScientific('cos')}>cos</button>
         <button onClick={() => handleScientific('tan')}>tan</button>
